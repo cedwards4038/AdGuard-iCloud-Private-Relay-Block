@@ -1,0 +1,4 @@
+! Disable iCloud Private Relay
+||mask.icloud.com^$important,dnsrewrite=NXDOMAIN;;
+||mask-h2.icloud.com^$important,dnsrewrite=NXDOMAIN;;
+||mask-api.icloud.com^$important,dnsrewrite=NXDOMAIN;;
